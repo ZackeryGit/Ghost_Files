@@ -71,3 +71,17 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+Shadow Project - Ghost/Library/BurstCache/
+
+Shadow Project - Ghost/Library/PackageCache/
+
+Shadow Project - Ghost/Library/Artifacts/
+
+Shadow Project - Ghost/Library/Bee/
+
+Shadow Project - Ghost/UserSettings/
+
+Shadow Project - Ghost/Logs/
+
+Shadow Project - Ghost/Library/StateCache/
