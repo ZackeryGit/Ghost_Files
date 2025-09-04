@@ -72,6 +72,13 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
+# Wwise (audio) files
+*.cache
+*.akd
+*.prof
+*.validationcache
+*.wem
+
 Textures/SubstanceDesigner/.autosave/
 
 Textures/SubstancePainter/Attic_autosave_0.spp
