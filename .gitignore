@@ -73,11 +73,14 @@ crashlytics-build.properties
 [Aa]ssets/[Ss]treamingAssets/aa/*
 
 # Wwise (audio) files
-*.cache
+.backup*
+.cache*
 *.akd
 *.prof
 *.validationcache
 *.wem
+*.wsettings
+IncrementalSoundBankData.xml
 
 Textures/SubstanceDesigner/.autosave/
 
