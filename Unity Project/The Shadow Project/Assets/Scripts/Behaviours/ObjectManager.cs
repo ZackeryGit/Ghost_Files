@@ -1,8 +1,8 @@
 /*
 Originial Coder: Zackery E.
 Recent Coder: Zackery E.
-Recent Changes: Initial Coding
-Last date worked on: 9/25/2025
+Recent Changes: Now gives object behaviors a return to object.
+Last date worked on: 9/29/2025
 */
 
 using System.Collections.Generic;
@@ -13,6 +13,8 @@ public class ObjectManager : MonoBehaviour
     public List<ObjectSpawner> enabledSpawns = new List<ObjectSpawner>();
 
     public List<ObjectBehaviour> spawnedObjects = new List<ObjectBehaviour>();
+
+    public Transform returnToObject;
 
     public void spawnRandom(int amount)
     {
@@ -38,6 +40,7 @@ public class ObjectManager : MonoBehaviour
             }
             ObjectBehaviour objectBehaviour = newObject.GetComponent<ObjectBehaviour>();
             objectBehaviour.originSpawn = randomSpawner;
+            objectBehaviour.returnToObject = returnToObject;
 
             spawnedObjects.Add(objectBehaviour);
 
