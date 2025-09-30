@@ -457,7 +457,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -429, y: -164.6}
+  m_AnchoredPosition: {x: -429, y: -224}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &113380648
@@ -761,7 +761,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -429, y: -210.6}
+  m_AnchoredPosition: {x: -429, y: -270}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &484701345
@@ -1036,7 +1036,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -429, y: -80.100006}
+  m_AnchoredPosition: {x: -429, y: -139.5}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1261825003
@@ -1176,10 +1176,8 @@ MonoBehaviour:
   radius: 10
   waitTime: 1
   isWandering: 1
-  isDrifting: 0
+  isTurning: 0
   center: {x: 0, y: 0, z: 0}
-  driftPointOne: {x: -0.734, y: 0.3, z: -1.858}
-  driftPointTwo: {x: 0.926, y: 0.3, z: -1.858}
   rotation: {x: 0, y: 0, z: 0, w: 0}
   rotationSpeed: 5
 --- !u!195 &1266123384
@@ -1824,7 +1822,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 30db92cce7a364bd0b4c187108231b11, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.765285
+      value: -1.7652851
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 30db92cce7a364bd0b4c187108231b11, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1927,7 +1925,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -429, y: -122.5}
+  m_AnchoredPosition: {x: -429, y: -181.9}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1889262043
