@@ -1,7 +1,7 @@
 /*
 Originial Coder: Owynn A.
 Recent Coder: Zackery E.
-Recent Changes: Initial Coding
+Recent Changes: Added variables and headers
 Last date worked on: 9/29/2025
 */
 
@@ -18,4 +18,4 @@ public class ObjectBehaviour : MonoBehaviour
     public ObjectSpawner originSpawn;
     public Transform returnToObject; // Object to return to (Ghost)
 
-}
+}// end class
